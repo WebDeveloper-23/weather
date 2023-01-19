@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>ამინდი</title>
+     <link rel="stylesheet" href="styles/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="container">
+          <div class="sidebar">
+               <h3>მენიუ</h3>
+               <div class="menu_content">
+                    <div class="menu weather_icon active">
+                         <i class="fa-solid fa-cloud-sun-rain"></i>
+                         ამინდი
+                    </div>
+                    <div class="menu cities">
+                         <i class="fa-solid fa-list"></i>
+                         ქალაქები
+                    </div>
+                    <div class="menu location">
+                         <i class="fa-solid fa-location-dot"></i>
+                         ლოკაცია
+                    </div>
+                    <div class="menu search">
+                         <i class="fa-solid fa-gear"></i>
+                         პარამეტრები
+                    </div>
+               </div>
+          </div>
+          <div class="search">
+               <input type="text" id="search" placeholder="ქალაქის ძებნა...">
+          </div>
+          <div class="weather">
+               <div class="city_temperature">
+                    <div class="citytime">
+                         <h1 class="city">თბილისი</h1>
+                         <h5 class="timezone">დროის სარტყელი:<span>500</span></h5>
+                         <h5 class="min">მინიმალური ტემპერატურა:<span>5<sup>o</sup></span></h5>
+                         <h5 class="max">მაქსიმალური ტემპერატურა:<span>15<sup>o</sup></span></h5>
+                    </div>
+                    <div class="temperature">
+                         <h2 class="temp">ამ მომენტში:<span>12<sup>o</sup></span></h2>
+                    </div>
+               </div>
+               <div class="weather_img">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4151/4151040.png" alt="">
+               </div>
+          </div>
+          <div class="today">
+               <h3>დღევანდელი პროგნოზი</h3>
+               <!-- <div class="today_forecast">
+                    <div class="prognose_card card">
+                         <div class="time">
+                              6:00
+                         </div>
+                         <div class="card_image">
+                              <img src="https://cdn-icons-png.flaticon.com/512/4151/4151040.png" alt="">
+                         </div>
+                         <div class="card_temperature">
+                              15<sup>o</sup>
+                         </div>
+                    </div>
+               </div> -->
+          </div>
+          <div class="conditions">
+               conditions
+          </div>
+          <div class="week_forecast">
+               forecast
+          </div>
+     </div>
+
+     <script src="app.js"></script>
+</body>
+</html>
